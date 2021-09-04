@@ -1,0 +1,14 @@
+_Zip_Create($FileName) Create Zip File. Required #include <Zip.au3>
+_Zip_AddFile($ZipFile, $File2Add, [$flag]) Add file to Zip Archive. Required #include <Zip.au3>
+_Zip_AddFolder($ZipFile, $Folder, [$flag]) Add folder to Zip Archive. Required #include <Zip.au3>
+_Zip_AddFolderContents($ZipFile, $Folder, [$flag]) Add folder's content to Zip Archive. Required #include <Zip.au3>
+_Zip_Delete($ZipFile, $hFileName, [$flag])
+_Zip_UnzipAll($ZipFile, $DestPath, [$flag]) Extract all files from Zip Archive. Required #include <Zip.au3>
+_Zip_Unzip($ZipFile,$FileName, $DestPath, [$flag]) Extract file from Zip Archive. Required #include <Zip.au3>
+_Zip_Count($ZipFile) Count items in zip. Required #include <Zip.au3>
+_Zip_CountAll($ZipFile) Count All items in the Zip Archive Including SubDirectories. Required #include <Zip.au3>
+_Zip_List($ZipFile) List items in zip. Required #include <Zip.au3>
+_Zip_Search($ZipFile, $SearchString) Search a File in the Zip Archive. Required #include <Zip.au3>
+_Zip_SearchInFile($ZipFile, $SearchString) Search In each File of the Zip Archive. Required #include <Zip.au3>
+_Zip_VirtualZipCreate($ZipFile, $Path) Create a Virtual Zip. Required #include <Zip.au3>
+_Zip_VirtualZipDelete($VirtualZipHandle) Delete a Virtual Zip. Required #include <Zip.au3>
